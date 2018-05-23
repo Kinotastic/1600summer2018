@@ -8,7 +8,7 @@ public class PowerUpBehaviour : MonoBehaviour {
 
     private void OnMouseDown()
     {
-        
+        Debug.Log(PowerUp.PowerLevel);
     }
 
 }
