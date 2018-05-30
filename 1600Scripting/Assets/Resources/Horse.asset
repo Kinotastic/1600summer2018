@@ -15,3 +15,4 @@ MonoBehaviour:
   Speed: 5
   Strength: 4
   LegCount: 4
+  PowerUp: {fileID: 11400000, guid: 30877f820aad8f341817f63d3ed643d9, type: 2}

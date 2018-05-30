@@ -5,6 +5,7 @@ using UnityEngine;
 public class PowerUpBase : ScriptableObject {
 
     [Range(0,10)] public float PowerLevel = 10.0f;
+
     private void OnEnable()
     {
         Debug.Log("PowerUp");
