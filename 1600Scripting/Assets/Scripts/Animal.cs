@@ -14,5 +14,4 @@ public class Animal : ScriptableObject {
     {
         Health += PowerUp.PowerLevel;
     }
-
 }
