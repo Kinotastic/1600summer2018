@@ -11,4 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e562573a8c2bf7243ac88e23eee7ecc8, type: 3}
   m_Name: health5
   m_EditorClassIdentifier: 
+  AnyAnimal: {fileID: 11400000, guid: b509c7acb1bc5984fb94e1964579f2a0, type: 2}
   PowerLevel: 5
