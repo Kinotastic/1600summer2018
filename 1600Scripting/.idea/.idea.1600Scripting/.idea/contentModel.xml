@@ -11,8 +11,10 @@
           <e p="Animal.cs" t="Include" />
           <e p="AnimalBehaviour.cs" t="Include" />
           <e p="Cintiq.cs" t="Include" />
+          <e p="HealthBehaviour.cs" t="Include" />
           <e p="HealthPowerUp.cs" t="Include" />
           <e p="Mammal.cs" t="Include" />
+          <e p="PlayerTrigger.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
           <e p="PowerUpBehaviour.cs" t="Include" />
           <e p="Tablet.cs" t="Include" />
