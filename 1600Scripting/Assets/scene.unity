@@ -393,9 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1b71377806c9fb41825753d97d2964e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthLevel: 1
-  EvilPower: 0.1
-  PlayerHealthBehaviour: {fileID: 1135618535}
+  HealthLevel: {fileID: 11400000, guid: 1c57c92d0892b8c448951583ba3cf00c, type: 2}
+  EvilPower: {fileID: 11400000, guid: 439c1d17cbd90fe479c19dee3697fc89, type: 2}
 --- !u!1 &532214945
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5c63361e48db54aafca71c6515049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthLevel: 1
+  HealthLevel: {fileID: 11400000, guid: 1c57c92d0892b8c448951583ba3cf00c, type: 2}
 --- !u!114 &1135618536
 MonoBehaviour:
   m_ObjectHideFlags: 0

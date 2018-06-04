@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class HealthBehaviour : MonoBehaviour
 {
-	public float HealthLevel = 1.0f;
+	public FloatData HealthLevel;
 	private Image HealthImage;
 	// Use this for initialization
 	void Start ()
@@ -17,6 +17,6 @@ public class HealthBehaviour : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		HealthImage.fillAmount = HealthLevel;
+		HealthImage.fillAmount = HealthLevel.Value;
 	}
 }
