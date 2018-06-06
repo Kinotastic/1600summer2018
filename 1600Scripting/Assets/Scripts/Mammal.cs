@@ -6,6 +6,6 @@ public class Mammal : Animal {
 
 
     public int HairCount = 1000;
-    public Color HairColor = Color.black;
+    public Color HairColor;
 
 }
