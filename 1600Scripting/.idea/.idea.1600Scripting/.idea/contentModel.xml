@@ -10,7 +10,10 @@
           <e p="AmmoPowerUp.cs" t="Include" />
           <e p="Animal.cs" t="Include" />
           <e p="AnimalBehaviour.cs" t="Include" />
+          <e p="ChangeUIColor.cs" t="Include" />
           <e p="Cintiq.cs" t="Include" />
+          <e p="ColorBehaviour.cs" t="Include" />
+          <e p="DoAddition.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="HealthBehaviour.cs" t="Include" />
           <e p="HealthPowerUp.cs" t="Include" />
