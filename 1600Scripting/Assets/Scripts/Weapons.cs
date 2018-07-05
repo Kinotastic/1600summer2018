@@ -11,6 +11,7 @@ public class Weapons : MonoBehaviour {
 		Sword,
 		Spear,
 		Scimitar,
+		Bow
 	}
 		
 	public WeaponObject[] WeaponObjects;
@@ -44,6 +45,11 @@ public class Weapons : MonoBehaviour {
 			case WeaponType.Scimitar:
 			Debug.Log(WeaponObjects[4].name);
 			Debug.Log(WeaponObjects[4].DoDamage());
+			break;
+
+			case WeaponType.Bow:
+			Debug.Log(WeaponObjects[5].name);
+			Debug.Log(WeaponObjects[5].DoDamage());
 			break;
 		}
 	}
