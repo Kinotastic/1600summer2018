@@ -18,7 +18,7 @@ public class MovePlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		newPosition.x = Speed;
+		newPosition.x = Speed*Input.GetAxis("Horizontal");
 		controller.Move(newPosition * Time.deltaTime);
 	}
 }
