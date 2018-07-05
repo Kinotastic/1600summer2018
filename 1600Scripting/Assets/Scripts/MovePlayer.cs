@@ -8,6 +8,7 @@ public class MovePlayer : MonoBehaviour {
 	private CharacterController controller;
 	private Vector3 newPosition;
 	public float Speed = 10.0f;
+	public float Gravity = 9.81f;
 	//private variables begin lowercase 
 	//public variables begin capitalized
 	//they still have camel casing
@@ -18,6 +19,7 @@ public class MovePlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		newPosition.y = Gravity;
 		newPosition.x = Speed*Input.GetAxis("Horizontal");
 		controller.Move(newPosition * Time.deltaTime);
 	}
