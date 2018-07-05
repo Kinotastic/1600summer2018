@@ -10,6 +10,7 @@ public class MovePlayer : MonoBehaviour {
 	public float Speed = 10.0f;
 	public float Gravity = 9.81f;
 	public float JumpSpeed = 10.0f;
+	public bool CanRun = true;
 	//private variables begin lowercase 
 	//public variables begin capitalized
 	//they still have camel casing
@@ -27,7 +28,10 @@ public class MovePlayer : MonoBehaviour {
 		}
 
 		newPosition.y -= Gravity;
-		newPosition.x = Speed*Input.GetAxis("Horizontal");
+		if (CanRun)
+		{
+			newPosition.x = Speed*Input.GetAxis("Horizontal");
+		}
 		controller.Move(newPosition * Time.deltaTime);
 	}
 }
