@@ -332,6 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+  Gravity: -9.81
 --- !u!33 &1730748323
 MeshFilter:
   m_ObjectHideFlags: 0
