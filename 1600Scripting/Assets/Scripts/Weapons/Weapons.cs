@@ -24,6 +24,7 @@ public class Weapons : MonoBehaviour {
 		{
 			case WeaponType.Axe:
 			Debug.Log(WeaponObjects[0].name);
+			//all collections start with 0 as the first element
 			Debug.Log(WeaponObjects[0].DoDamage());
 			break;
 
