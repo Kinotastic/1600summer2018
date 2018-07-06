@@ -8,7 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a29dd52cf484b84ba47ea3ba5d99e82, type: 3}
-  m_Name: Bow
+  m_Script: {fileID: 11500000, guid: 008ec1c3a8b30124bbf9b7aa8efae3b3, type: 3}
+  m_Name: WeaponsCollection
   m_EditorClassIdentifier: 
-  DamageLevel: 8
+  Weapons:
+  - {fileID: 11400000, guid: 90fa01b5ccba1344da6839938f92d6d0, type: 2}

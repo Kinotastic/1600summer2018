@@ -7,7 +7,7 @@ public class WeaponObject : ScriptableObject {
 
 	public float DamageLevel = 10;
 
-	public float DoDamage ()
+	public float DoDamage()
 	{
 		return DamageLevel;
 	}
