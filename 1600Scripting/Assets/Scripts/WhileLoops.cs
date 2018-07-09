@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class WhileLoops : MonoBehaviour {
 
-	public bool StartGame = true;
+	public Text DisplayText;
 	public int i = 3;
 
 	void Start () {
@@ -15,11 +16,13 @@ public class WhileLoops : MonoBehaviour {
 	{
 		while (i > 0)
 		{
-			print(i);
+			DisplayText.text = i.ToString();
 			yield return new WaitForSeconds(1);
 			i--;
 		}
 
-		print("GO!");
+		DisplayText.text = "GO!";
+		yield return new WaitForSeconds(2);
+		DisplayText.text = "";
 	}
 }
