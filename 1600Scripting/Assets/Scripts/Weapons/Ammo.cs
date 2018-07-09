@@ -5,10 +5,16 @@ using UnityEngine;
 public class Ammo : MonoBehaviour {
 
 	private Rigidbody projectile;
-	public float ProjectileSpeed = 1000;
+	public FloatData ProjectileSpeed;
+	public FloatData ProjectileUpgrade;
 
 	private void Start () {
 		projectile = GetComponent<Rigidbody>();
-		projectile.AddForce(0,0,ProjectileSpeed);
+		projectile.AddForce(0,0,ProjectileSpeed.Value);
+	}
+
+	private void OnTriggerEnter(Collider other)
+	{
+		ProjectileSpeed = ProjectileUpgrade;
 	}
 }
