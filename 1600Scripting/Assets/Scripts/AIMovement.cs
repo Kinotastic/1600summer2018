@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,6 +8,7 @@ using UnityEngine.AI;
 public class AIMovement : MonoBehaviour
 {
 	private NavMeshAgent Agent;
+	public Transform Destination;
 	
 	private void Start ()
 	{
@@ -14,6 +16,6 @@ public class AIMovement : MonoBehaviour
 	}
 	
 	private void Update () {
-		Agent.destination = Vector3.zero;
+		Agent.destination = Destination.position;
 	}
 }
