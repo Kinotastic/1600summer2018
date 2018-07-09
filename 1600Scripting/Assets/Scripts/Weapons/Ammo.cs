@@ -16,5 +16,6 @@ public class Ammo : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
 		ProjectileSpeed = ProjectileUpgrade;
+		projectile.AddForce(0,0,ProjectileSpeed.Value);
 	}
 }
