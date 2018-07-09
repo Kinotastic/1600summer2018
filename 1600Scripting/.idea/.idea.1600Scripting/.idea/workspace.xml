@@ -26,8 +26,8 @@
       <file leaf-file-name="WhileLoops.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WhileLoops.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="165">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <marker date="1531152185831" expanded="false" signature="6:100" ph="..." />
                 <marker date="1531152185831" expanded="true" signature="142:468" ph="{...}" />
@@ -176,7 +176,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10277000" />
+    <option name="totallyTimeSpent" value="11230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,8 +572,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/WhileLoops.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="165">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <marker date="1531152185831" expanded="false" signature="6:100" ph="..." />
             <marker date="1531152185831" expanded="true" signature="142:468" ph="{...}" />
