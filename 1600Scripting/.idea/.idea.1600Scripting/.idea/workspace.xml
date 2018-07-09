@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhileLoops.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhileLoops.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/WhileLoops.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -34,6 +34,21 @@
                 <marker date="1531152185831" expanded="true" signature="206:238" ph="{...}" />
                 <marker date="1531152185831" expanded="true" signature="261:466" ph="{...}" />
                 <marker date="1531152185831" expanded="true" signature="280:371" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AIMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <marker date="1531156416932" expanded="true" signature="6:100" ph="..." />
+                <marker date="1531156416932" expanded="true" signature="182:353" ph="{...}" />
+                <marker date="1531156416932" expanded="true" signature="238:284" ph="{...}" />
+                <marker date="1531156416932" expanded="true" signature="311:351" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -75,6 +90,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WhileLoops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimalBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -89,6 +105,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DoAddition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChangeUIColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AIMovement.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +193,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11230000" />
+    <option name="totallyTimeSpent" value="12588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +261,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/New.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -580,6 +596,19 @@
             <marker date="1531152185831" expanded="true" signature="206:238" ph="{...}" />
             <marker date="1531152185831" expanded="true" signature="261:466" ph="{...}" />
             <marker date="1531152185831" expanded="true" signature="280:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AIMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <marker date="1531156416932" expanded="true" signature="6:100" ph="..." />
+            <marker date="1531156416932" expanded="true" signature="182:353" ph="{...}" />
+            <marker date="1531156416932" expanded="true" signature="238:284" ph="{...}" />
+            <marker date="1531156416932" expanded="true" signature="311:351" ph="{...}" />
           </folding>
         </state>
       </provider>
